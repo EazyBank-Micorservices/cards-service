@@ -19,7 +19,7 @@ public class Card extends BaseEntity {
     private String mobileNumber;
     private String cardNumber;
     private String cardType;
-    private String totalLimit;
+    private int totalLimit;
     private int amountUsed;
-    private int amountAvailable;
+    private int availableAmount;
 }
