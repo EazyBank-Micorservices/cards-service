@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
 import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
 
-@Entity
+@Entity(name = "cards")
 @Getter
 @Setter
 @ToString
