@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS cards
 (
-    card_id          BIGINT       NOT NULL,
+    card_id          BIGINT       NOT NULL AUTO_INCREMENT,
     created_at       datetime     NULL,
     created_by       VARCHAR(255) NULL,
     updated_at       datetime     NULL,
